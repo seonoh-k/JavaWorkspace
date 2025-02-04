@@ -1,0 +1,9 @@
+package com.javachobo.renshuu;
+
+public class Tank extends GroundUnit {
+
+	@Override
+	void move(int x, int y) {
+		System.out.println("Move");
+	}
+}

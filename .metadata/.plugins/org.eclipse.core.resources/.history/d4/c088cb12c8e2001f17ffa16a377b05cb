@@ -1,0 +1,10 @@
+package com.javachobo.renshuu;
+
+public class Medic extends GroundUnit {
+
+	Medic() {
+		super(50);
+		hitPoint = MAX_HP;
+	}
+	
+}

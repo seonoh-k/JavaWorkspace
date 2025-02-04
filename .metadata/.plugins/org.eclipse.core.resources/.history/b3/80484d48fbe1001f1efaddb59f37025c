@@ -1,0 +1,15 @@
+import com.javachobo.rectangel.Rectangle;
+
+public class RectangleMain {
+
+	public static void main(String[] args) {
+
+		Rectangle r = new Rectangle(100, 200);
+		
+		int result = r.getArea2();
+		
+		System.out.println(result);
+		
+	}
+
+}

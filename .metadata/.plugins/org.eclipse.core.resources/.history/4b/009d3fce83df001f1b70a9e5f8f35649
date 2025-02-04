@@ -1,0 +1,15 @@
+
+public class MyMath {
+
+	// 인스터스 메소드
+	void add(int x, int y) {
+		System.out.println(x + y);
+	}
+	
+	
+	// 클래스 메소드
+	// 생성 없이 사용 가능
+	static void add2(int x, int y) {
+		System.out.println(x + y);
+	}
+}

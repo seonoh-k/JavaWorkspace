@@ -1,0 +1,5 @@
+package com.javachobo.renshuu;
+
+public class Medic extends GroundUnit {
+
+}

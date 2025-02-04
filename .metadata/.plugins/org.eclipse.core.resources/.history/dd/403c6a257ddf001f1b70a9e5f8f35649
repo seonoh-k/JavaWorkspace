@@ -1,0 +1,34 @@
+
+public class PrintArr {
+
+	int[] arr = {2,5,3,1,4};
+	
+	void printAll(int[] arr) {
+		for(int num : arr) {
+			System.out.print(num + " ");
+		}
+		System.out.println();
+	}
+	
+	void printSum(int[] arr) { // 합계
+		int sum1 = 0;
+		for(int sum : arr) {
+			sum1 += sum;
+		}
+		System.out.println(sum1);
+	}
+	
+	void printSort(int[] arr) { // 오름차순
+		for(int i=0; i<arr.length-1; i++) {
+			for(int j=0; j<arr.length-1-i; j++) {
+				if(arr[i] > arr[j+1]) {
+					int x;
+					x = arr[i];
+					arr[i] = arr[j];
+					arr[j] = x;
+				}
+			}
+			System.out.print(arr[i] + " ");
+		}
+	}
+}

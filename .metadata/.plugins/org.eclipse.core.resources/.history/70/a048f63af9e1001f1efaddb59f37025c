@@ -1,0 +1,15 @@
+import com.javachobo.circle.Circle;
+
+public class CircleMain {
+
+	public static void main(String[] args) {
+
+		Circle c = new Circle(10, 20, 5);
+		
+		double result = c.getArea();
+		
+		System.out.println(result);
+		
+	}
+
+}

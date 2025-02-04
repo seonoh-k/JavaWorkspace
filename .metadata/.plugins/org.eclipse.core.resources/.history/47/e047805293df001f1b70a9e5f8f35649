@@ -1,0 +1,17 @@
+
+public class VarArgExMain {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+	// 가변인자 메소드 : 배열 형식으로 값을 받는다
+	static void concate(int... args) {
+		for(int num : args) {
+			System.out.println(num);
+		}
+	}
+	
+}

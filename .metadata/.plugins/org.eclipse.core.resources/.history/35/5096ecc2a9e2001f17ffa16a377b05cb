@@ -1,0 +1,10 @@
+
+public class AudioPlayer extends Player {
+
+	@Override
+	void stop() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

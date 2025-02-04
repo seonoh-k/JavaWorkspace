@@ -1,0 +1,8 @@
+
+public class Car { // 포함 관계의 추상 클래스
+
+	Engine engine;
+	Tire tire;
+	
+	
+}

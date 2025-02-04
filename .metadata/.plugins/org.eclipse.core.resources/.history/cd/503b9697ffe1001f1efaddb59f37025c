@@ -1,0 +1,10 @@
+package com.javachobo.b;
+import com.javachobo.a.A;
+
+public class B {
+
+	int z;
+	
+	A a = new A();
+	
+}

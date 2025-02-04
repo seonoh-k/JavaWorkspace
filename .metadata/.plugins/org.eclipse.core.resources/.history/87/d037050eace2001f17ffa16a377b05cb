@@ -1,0 +1,16 @@
+
+public class Dropship extends Unit { // 2.4
+
+	@Override
+	void move(int x, int y) {
+		
+	}
+	
+	@Override
+	void stop() {
+		System.out.println("Dropship Stop");
+	}
+	
+	void load() {}
+	void unload() {}
+}

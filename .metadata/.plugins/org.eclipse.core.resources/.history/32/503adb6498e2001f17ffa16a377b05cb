@@ -1,0 +1,13 @@
+package com.javachobo.polymorphism;
+
+public class Tv extends Product { // 2.4
+
+	public Tv(int price) {
+		super(100);
+	} 
+
+	
+
+	
+	
+}

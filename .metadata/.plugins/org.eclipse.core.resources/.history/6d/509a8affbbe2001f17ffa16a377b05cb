@@ -1,0 +1,5 @@
+package com.javachobo.renshuu;
+
+public abstract class Unit {
+
+}

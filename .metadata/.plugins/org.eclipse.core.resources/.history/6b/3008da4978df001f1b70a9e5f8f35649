@@ -1,0 +1,12 @@
+
+public class PrintArrMain {
+
+	public static void main(String[] args) {
+
+		PrintArr pr = new PrintArr();
+		
+		pr.printAll(pr.arr);
+		
+	}
+
+}

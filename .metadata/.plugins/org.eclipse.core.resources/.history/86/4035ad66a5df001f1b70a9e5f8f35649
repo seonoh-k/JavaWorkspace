@@ -1,0 +1,29 @@
+
+public class Car {
+
+	// 속성(변수)
+	String color;
+	String gearType;
+	int door;
+	
+	// 생성자 : 
+	// 1. 인스턴스 변수의 값을 초기화 하는 역할을 한다.
+	// 2. 클래스의 이름과 동일하게 작성한다.
+	// 3. 리턴값은 없다.
+	// 4. 기본생성자, 매개변수를 가지는 생성자(명시적 생성자)
+	
+	Car() {
+		this.color = "red";
+		this.gearType = "Auto";
+		this.door = 5;
+	}
+	
+	Car(String color, String gearType, int door) {
+		this.color = color;
+		this.gearType = gearType;
+		this.door = door;
+	}
+	
+	// 기능
+	
+}

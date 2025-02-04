@@ -1,0 +1,10 @@
+
+public class Point3D extends Point {
+
+	int z;
+	
+	String getLocation() { // 오버라이드 : 메소드의 재정의
+		return "x = " + x + ", y = " + y + ", z = " + z;
+	}
+	
+}

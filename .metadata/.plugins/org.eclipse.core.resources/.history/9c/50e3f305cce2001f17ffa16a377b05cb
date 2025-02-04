@@ -1,0 +1,22 @@
+
+public class ExeptionMain {
+
+	public static void main(String[] args) {
+		
+		// 예외처리(예측 가능한 코드상의 문제점)
+		
+		try {
+			
+		}catch(예외타입1) {
+			
+		}catch(예외타입2) {
+		
+		}catch(예외타입3) {
+		
+		}finally {
+			
+		}
+		
+		
+	}
+}

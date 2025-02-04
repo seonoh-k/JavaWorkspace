@@ -1,0 +1,35 @@
+
+public class Student {
+
+	// 속성 : 이름, 학년, 반, 번호
+	// 기능 : 자기소개
+	
+	String name;
+	int grade;
+	int classNum;
+	int number;
+	
+	void studentInfo(String name, int grade, int classNum, int number) {
+		this.name = name;
+		this.grade = grade;
+		this.classNum = classNum;
+		this.number = number;
+	}
+	
+	String getName() {
+		return this.name;
+	}
+	
+	int getGrade() {
+		return this.grade;
+	}
+	
+	int getClassnumber() {
+		return this.classNum;
+	}
+	
+	int getNumber() {
+		return this.number;
+	}
+	
+}

@@ -1,0 +1,39 @@
+
+public class TvMain {
+
+	public static void main(String[] args) {
+
+		Tv tv = new Tv();
+		
+		tv.powerBtn();
+		System.out.println("Àü¿ø ÄÑÁü");
+
+		tv.channel = 7;
+		System.out.println(tv.channel);
+		
+		tv.channelUp();
+		System.out.println(tv.channel);
+		
+		tv.channelDown();
+		System.out.println(tv.channel);
+		
+		tv.powerBtn();
+		System.out.println("Àü¿ø ²¨Áü");
+		
+		tv.color = "black";
+		tv.power = true;
+		tv.channel = 1;
+		
+		System.out.println("Tv color = " + tv.color + " Tv power = " + tv.power + " Tv channel = " + tv.channel);
+		
+		tv.powerBtn(tv.power);
+		
+		System.out.println("Tv color = " + tv.color + " Tv power = " + tv.power + " Tv channel = " + tv.channel);
+		
+		tv.channelUp(tv.channel);
+		
+		System.out.println("Tv color = " + tv.color + " Tv power = " + tv.power + " Tv channel = " + tv.channel);
+		
+	}
+
+}

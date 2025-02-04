@@ -1,0 +1,14 @@
+package com.javachobo.polymorphism;
+
+public class Product { // 2.4
+	
+	int price;
+	int bonusPoint;
+
+	public Product(int price, int bonusPoint) {
+		super();
+		this.price = price;
+		this.bonusPoint = bonusPoint;
+	}
+		
+}

@@ -1,0 +1,22 @@
+
+public class TvMain {
+
+	public static void main(String[] args) {
+
+		Tv tv = new Tv();
+		
+		
+		tv.color = "black";
+		String power = tv.powerBtn(tv.power);
+		tv.channel = 1;
+		
+		System.out.println("Tv color = " + tv.color + " Tv power = " + power + " Tv channel = " + tv.channel);
+		
+		tv.powerBtn(power);
+		
+		System.out.println("Tv color = " + tv.color + " Tv power = " + power + " Tv channel = " + tv.channel);
+		
+		
+	}
+
+}

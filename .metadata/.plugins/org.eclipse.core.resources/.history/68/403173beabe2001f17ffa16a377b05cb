@@ -1,0 +1,6 @@
+
+public class Dropship extends Unit { // 2.4
+
+	void load() {}
+	void unload() {}
+}

@@ -1,0 +1,10 @@
+
+public class PrintArr {
+
+	void printAll(int[] arr) {
+		for(int num : arr) {
+			System.out.print(num + " ");
+		}
+	}
+	
+}

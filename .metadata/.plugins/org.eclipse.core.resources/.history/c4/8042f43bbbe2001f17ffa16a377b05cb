@@ -1,0 +1,8 @@
+package com.javachobo.inter;
+
+public class Unit {
+
+	int x;
+	int y;
+	
+}

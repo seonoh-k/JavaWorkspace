@@ -1,0 +1,9 @@
+
+public class Tiger extends Animal {
+
+	@Override
+	void move() {
+		System.out.println("사족보행");
+	}
+	
+}

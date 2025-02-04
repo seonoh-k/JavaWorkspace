@@ -1,0 +1,18 @@
+
+public class Point3D extends Point {
+
+	int z;
+	
+//	Point3D() {
+//		super(); // Point(); 부모의 생성자 호출
+//	}
+	
+	// 오버라이드 : 메소드의 재정의
+	// 상속에서 부모의 메소드를 다식이 재정의 하는 것
+	// 메소드는 부모의 메소드와 동일해야한다.
+	// 다형성의 형태이다.
+	String getLocation() { 
+		return "x = " + x + ", y = " + y + ", z = " + z;
+	}
+	
+}

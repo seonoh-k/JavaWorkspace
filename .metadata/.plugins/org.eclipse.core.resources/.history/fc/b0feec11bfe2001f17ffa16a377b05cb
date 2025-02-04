@@ -1,0 +1,9 @@
+package com.javachobo.renshuu;
+
+public class Dropship extends AirUnit {
+
+	@Override
+	void move(int x, int y) {
+		System.out.println("Move");
+	}
+}

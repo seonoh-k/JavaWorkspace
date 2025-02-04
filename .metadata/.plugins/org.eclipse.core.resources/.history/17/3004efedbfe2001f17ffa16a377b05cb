@@ -1,0 +1,9 @@
+package com.javachobo.renshuu;
+
+public class Marine extends GroundUnit {
+
+	Marine(int hp) {
+		super(hp);
+	}
+	
+}

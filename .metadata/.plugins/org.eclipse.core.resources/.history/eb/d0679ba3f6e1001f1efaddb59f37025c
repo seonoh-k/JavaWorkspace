@@ -1,0 +1,10 @@
+package com.javachobo.book;
+
+public class PackageMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

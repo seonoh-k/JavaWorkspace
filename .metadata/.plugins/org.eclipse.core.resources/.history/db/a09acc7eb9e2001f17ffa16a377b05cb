@@ -1,0 +1,15 @@
+package com.javachobo.inter;
+
+public class FightMain {
+
+	public static void main(String[] args) {
+
+		Fight ft = new Fight();
+		Fightable fa = new Fight(); // Upcasting
+		
+		ft.send(10);
+		fa.send(20);
+		
+	}
+
+}

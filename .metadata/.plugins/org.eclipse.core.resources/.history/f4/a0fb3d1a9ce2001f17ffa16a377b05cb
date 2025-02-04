@@ -1,0 +1,14 @@
+package com.javachobo.polymorphism;
+
+public class ProductMain {
+
+	public static void main(String[] args) { // 2.4
+		
+		Product prod = null;
+		Buyer b = new Buyer();
+		
+		b.buy(prod);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Point3D extends Point {
+
+	int z;
+	
+	@Override
+	String getLocation() {
+		return "z = " + z;
+	}
+	
+}

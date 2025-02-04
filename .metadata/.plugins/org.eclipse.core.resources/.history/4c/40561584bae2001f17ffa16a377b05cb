@@ -1,0 +1,15 @@
+package com.javachobo.inter;
+
+public class Fight implements Fightable { // Interface 상속
+
+	@Override
+	public String send(int x) {
+		return "적 공격하기";
+	}
+	
+	@Override
+	public void move() {
+		System.out.println("이동 중");
+	}
+	
+}

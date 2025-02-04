@@ -1,0 +1,9 @@
+
+public class AudioPlayer extends Player {
+
+	@Override
+	void stop() {
+		System.out.println("Audio Stop");
+	}
+
+}

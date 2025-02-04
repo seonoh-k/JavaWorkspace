@@ -1,0 +1,21 @@
+
+public class DataMain2 {
+
+	public static void main(String[] args) {
+
+		Data d2 = new Data();
+		d2.x = 10;
+		
+		System.out.println("변경전 x = " + d2.x);
+		
+		change(d2);
+		
+		System.out.println("변경후 x = " + d2.x);
+	}
+
+	static void change(Data d) {
+		d.x = 1000;
+		System.out.println("change x = " + d.x);
+	}
+	
+}

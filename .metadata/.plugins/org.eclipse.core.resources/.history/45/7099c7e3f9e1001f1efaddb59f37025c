@@ -1,0 +1,9 @@
+import com.javachobo.rectangel.Rectangle;
+
+public class RectangleMain {
+
+	public static void main(String[] args) {
+
+	}
+
+}

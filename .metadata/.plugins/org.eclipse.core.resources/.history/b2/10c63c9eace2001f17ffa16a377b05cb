@@ -1,0 +1,12 @@
+
+public abstract class Unit { // 2.4
+	
+	int x,y;
+	
+	abstract void move(int x, int y);
+	
+	void stop() {
+		System.out.println("Stop");
+	};
+	
+}

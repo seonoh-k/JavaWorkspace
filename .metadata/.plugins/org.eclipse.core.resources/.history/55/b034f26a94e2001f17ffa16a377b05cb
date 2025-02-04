@@ -1,0 +1,5 @@
+package com.javachobo.polymorphism;
+
+public class Computer extends Product { // 2.4
+
+}

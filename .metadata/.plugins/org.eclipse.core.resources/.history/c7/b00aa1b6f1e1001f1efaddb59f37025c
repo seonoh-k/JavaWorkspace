@@ -1,0 +1,9 @@
+
+public class Whale extends Animal {
+
+	@Override
+	void move() {
+		
+	}
+	
+}

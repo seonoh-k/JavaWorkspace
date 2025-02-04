@@ -1,0 +1,9 @@
+
+public class Tank { // 2.4
+
+	int x,y;
+	
+	void move(int x, int y) {}
+	void stop() {}
+	void changeMode() {}
+}

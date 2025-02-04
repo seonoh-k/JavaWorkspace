@@ -1,0 +1,9 @@
+package com.javachobo.renshuu;
+
+public class Unit {
+
+	void move(int x, int y) {
+		
+	};
+	
+}

@@ -1,0 +1,10 @@
+package com.javachobo.renshuu;
+
+public class SCV extends GroundUnit {
+
+	SCV() {
+		super(50);
+		hitPoint = MAX_HP;
+	}
+	
+}

@@ -1,0 +1,17 @@
+
+public class Point3DMain {
+
+	public static void main(String[] args) {
+
+		Point3D p = new Point3D();
+		
+		p.x = 10;
+		p.y = 20;
+		p.z = 30;
+		
+		String text = p.getLocation();
+		
+		System.out.println(text);
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.javachobo.polymorphism;
+
+public class Audio extends Product { // 2.4
+
+	
+	
+}

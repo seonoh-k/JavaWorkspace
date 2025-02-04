@@ -1,0 +1,30 @@
+
+public class Tv {
+
+	// 속성 : 색상, 전원버튼, 채널
+	// 기능 : 전원 온오프, 채널 증가 감소
+	
+	
+	String color;
+	boolean power;
+	int channel;
+	
+	boolean powerBtn(boolean power) {
+		if(power == true) {
+			power = false;
+			return power;
+		}else {
+			power = true;
+			return power;
+		}
+	}
+	
+	void channelUp(int channel) {
+		channel = 2;
+	}
+	
+	void channelDown(int channel) {
+		channel = 1;
+	}
+	
+}

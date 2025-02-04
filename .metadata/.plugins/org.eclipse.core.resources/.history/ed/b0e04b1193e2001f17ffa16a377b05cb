@@ -1,0 +1,30 @@
+
+public class CarMain {
+
+	public static void main(String[] args) {
+
+//		Car car = null;
+//		FireEngine fe = new FireEngine();
+//		FireEngine fe2 = null;
+		
+//		fe.water();
+//		car = fe; // Up캐스팅
+//		// car.water(); 
+//		fe2 = (FireEngine)car; // Down캐스팅
+//		fe2.water();
+		
+		Car car = new Ambulance();
+		
+		if(car instanceof FireEngine) {
+			System.out.println("FireEngine Yes");
+			FireEngine fe = (FireEngine)car;
+			fe.water();
+		}else {
+			System.out.println("Ambulance Yes");
+			Ambulance am = (Ambulance)car;
+			am.siren();
+		}
+		
+	}
+
+}

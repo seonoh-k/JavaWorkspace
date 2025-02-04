@@ -1,0 +1,11 @@
+
+public class Tank extends Unit { // 2.4
+
+	@Override
+	void move(int x, int y) {
+		
+	}
+	
+	
+	void changeMode() {}
+}

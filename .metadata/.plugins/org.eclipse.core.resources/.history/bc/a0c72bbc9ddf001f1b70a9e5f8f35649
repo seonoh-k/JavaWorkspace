@@ -1,0 +1,29 @@
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+
+		Student st = new Student();
+		
+		st.name = "안성길";
+		st.grade = 3;
+		st.classNum = 2;
+		st.number = 24;
+		st.kor = 90;
+		st.math = 80;
+		st.eng = 60;
+		
+		st.introduce();
+		
+		st.point(80, 90, 70);
+		
+		st.studentInfo("홍길동", 1, 3, 28);
+		System.out.println("이름 : " + st.getName() + " " + st.getGrade() + "학년 " + st.getClassnumber() + "반 " + st.getNumber() + "번");
+		
+		st.studentInfo("박혁거세", 2, 5, 14);
+		System.out.println("이름 : " + st.getName() + " " + st.getGrade() + "학년 " + st.getClassnumber() + "반 " + st.getNumber() + "번");
+		
+		
+	}
+
+}

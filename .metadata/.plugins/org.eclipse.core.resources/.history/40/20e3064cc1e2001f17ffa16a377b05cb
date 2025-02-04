@@ -1,0 +1,9 @@
+package com.javachobo.renshuu;
+
+public class Tank extends GroundUnit {
+
+	Tank() {
+		super(200);
+	}
+	
+}

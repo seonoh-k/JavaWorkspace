@@ -1,0 +1,14 @@
+package com.javachobo.renshuu;
+
+public class SCV extends GroundUnit implements Repairable {
+
+	SCV() {
+		super(50);
+		hitPoint = MAX_HP;
+	}
+	
+	void repair() {
+		
+	}
+	
+}

@@ -1,0 +1,23 @@
+package com.javachobo.renshuu;
+
+public class SCV extends GroundUnit implements Repairable {
+
+	SCV() {
+		super(50);
+		hitPoint = MAX_HP;
+	}
+	
+	void repair(Repairable r) { // SCV, Tank, Dropship을 하나로 묶기 위한 인터페이스
+		if(r instanceof Unit) { // r이 Unit인지 체크
+			Unit u = (Unit)r;   // Unit의 멤버 hitPoint를 사용하기 위해 캐스팅
+			
+			while(u.hitPoint != u.MAX_HP) {
+				u.hitPoint++;
+			}
+			
+			System.out.println(u + " 수리 완료");
+		}
+
+	}
+	
+}

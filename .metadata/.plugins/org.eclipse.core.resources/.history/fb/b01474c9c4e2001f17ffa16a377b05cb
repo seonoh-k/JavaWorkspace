@@ -1,0 +1,17 @@
+package com.javachobo.renshuu;
+
+public class StarMain {
+
+	public static void main(String[] args) {
+
+		Marine mr = new Marine();
+		SCV scv = new SCV();
+		Tank tk = new Tank();
+		Dropship ds = new Dropship();
+		
+		
+		
+		
+	}
+
+}

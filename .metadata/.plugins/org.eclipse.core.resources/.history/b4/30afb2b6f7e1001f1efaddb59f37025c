@@ -1,0 +1,11 @@
+package com.javachobo.circle;
+
+public class Circle {
+
+	private int x;
+	private int y;
+	private int r;
+	
+	
+
+}

@@ -1,0 +1,21 @@
+package com.javachobo.renshuu;
+
+public class StarMain {
+
+	public static void main(String[] args) {
+
+		Marine mr = new Marine();
+		SCV scv = new SCV();
+		Tank tk = new Tank();
+		Dropship ds = new Dropship();
+		
+		System.out.println(mr.hitPoint);
+		System.out.println(mr.MAX_HP);
+		System.out.println(scv.hitPoint);
+		System.out.println(tk.hitPoint);
+		System.out.println(ds.hitPoint);
+		
+		
+	}
+
+}

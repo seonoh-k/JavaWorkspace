@@ -1,0 +1,6 @@
+package com.javachobo.renshuu;
+
+public class Dropship extends AirUnit {
+
+	
+}

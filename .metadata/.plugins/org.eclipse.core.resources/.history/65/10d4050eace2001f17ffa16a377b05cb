@@ -1,0 +1,15 @@
+
+public class Tank extends Unit { // 2.4
+
+	@Override
+	void move(int x, int y) {
+		
+	}
+	
+	@Override
+	void stop() {
+		System.out.println("Tank Stop");
+	}
+	
+	void changeMode() {}
+}

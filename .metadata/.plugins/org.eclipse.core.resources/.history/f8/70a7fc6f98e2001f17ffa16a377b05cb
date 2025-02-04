@@ -1,0 +1,11 @@
+package com.javachobo.polymorphism;
+
+public class Computer extends Product { // 2.4
+
+	public Computer(int price, int bonusPoint) {
+		super(price, bonusPoint);
+	} 
+
+	
+	
+}

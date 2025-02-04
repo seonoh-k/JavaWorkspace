@@ -1,0 +1,16 @@
+
+public class Dropship extends Unit { // 2.4
+
+	@Override
+	void move(int x, int y) {
+		
+	}
+	
+	@Override
+	void stop() {
+		
+	}
+	
+	void load() {}
+	void unload() {}
+}

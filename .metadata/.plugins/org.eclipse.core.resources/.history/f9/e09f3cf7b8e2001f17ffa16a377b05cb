@@ -1,0 +1,10 @@
+package com.javachobo.inter;
+
+public class Fight implements Fightable {
+
+	@Override
+	public String send(int x) {
+		System.out.println(x);
+	}
+	
+}

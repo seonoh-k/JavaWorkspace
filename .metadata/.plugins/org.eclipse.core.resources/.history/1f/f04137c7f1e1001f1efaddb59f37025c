@@ -1,0 +1,9 @@
+
+public class Whale extends Animal {
+
+	@Override
+	void move() {
+		System.out.println("部府肺 庆决模促");
+	}
+	
+}

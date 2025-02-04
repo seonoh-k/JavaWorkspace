@@ -1,0 +1,9 @@
+package com.javachobo.renshuu;
+
+public class SCV extends GroundUnit {
+
+	@Override
+	void move(int x, int y) {
+		System.out.println("Move");
+	}
+}

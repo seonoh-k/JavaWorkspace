@@ -1,0 +1,49 @@
+
+public class Student {
+
+	// 속성 : 이름, 학년, 반, 번호, 국어성적, 수학성적, 영어성적
+	// 기능 : 자기소개
+	
+	String name;
+	int grade;
+	int classNum;
+	int number;
+	
+	void introduce() {
+		System.out.println("이름 : " + name);
+		System.out.println("학년 : " + grade);
+		System.out.println("반 : " + classNum);
+		System.out.println("번호 : " + number);
+	}
+	
+	void point(int ... args) {
+		System.out.println("국어 : " + args[0]);
+		System.out.println("수학 : " + args[1]);
+		System.out.println("영어 : " + args[2]);
+	}
+	
+	
+	void studentInfo(String name, int grade, int classNum, int number) {
+		this.name = name;
+		this.grade = grade;
+		this.classNum = classNum;
+		this.number = number;
+	}
+	
+	String getName() {
+		return this.name;
+	}
+	
+	int getGrade() {
+		return this.grade;
+	}
+	
+	int getClassnumber() {
+		return this.classNum;
+	}
+	
+	int getNumber() {
+		return this.number;
+	}
+	
+}

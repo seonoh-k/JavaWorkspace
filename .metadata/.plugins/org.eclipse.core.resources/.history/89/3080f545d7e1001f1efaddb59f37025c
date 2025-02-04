@@ -1,0 +1,7 @@
+
+public class Triangle {
+
+	Point p;
+	int z;
+	
+}

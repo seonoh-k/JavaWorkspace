@@ -11,8 +11,9 @@ public class VarArgExMain {
 	// 가변인자 메소드 : 배열 형식으로 값을 받는다
 	static void concate(int... args) {
 		for(int num : args) {
-			System.out.print(num + ":");
+			System.out.print(num + " ");
 		}
+		System.out.println();
 	}
 	
 }

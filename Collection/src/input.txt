@@ -1,0 +1,2 @@
+name=Hong jin ho
+data=8,1,5,2,8,13,16,24,55

@@ -1,6 +1,6 @@
 package com.javachobo.list;
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.EmptyStackException;
+import java.util.Stack;
 
 public class ArrayListMain {
 
@@ -41,9 +41,9 @@ public class ArrayListMain {
 //		for(int i=0; i<list.size(); i++) { // size() => 데이터가 들어있는 크기
 //			System.out.println(list.get(i));
 //		}
-//		
+		
 //		list.remove(0); // index(0)의 값을 삭제. 순차적으로 index 번호가 앞당겨진다. list의 크기가 줄어들지는 않는다.
-//		
+		
 //		System.out.println("== 삭제 후 ==");
 //		for(int i=0; i<list.size(); i++) { // list가 배열 형식을 취하기 때문에 반복문 사용
 //			System.out.println(list.get(i));
@@ -54,7 +54,7 @@ public class ArrayListMain {
 		
 //		System.out.println("== 순차 삭제 후 ==");
 //		for(int i=list.size()-1; i>=0; i--) { // list의 뒤에서부터 삭제. 
-//			if(list.contains(3)) { // list에 5라는 값이 있다면
+//			if(list.contains(5)) { // list에 5라는 값이 있다면
 //				list.remove(i);				
 //			}
 //			list.remove(i);
@@ -76,11 +76,11 @@ public class ArrayListMain {
 //		list.add("8");
 //		list.add("9");
 //		list.add("10");
-		
+//		
 //		for(Object o : list) { // list는 Object 값으로 받아들임
 //			System.out.println((String)o); // Object를 String으로 캐스팅
 //		}
-		
+//		
 //		int sum = 0;
 //		
 //		for(Object o : list) {
@@ -122,8 +122,8 @@ public class ArrayListMain {
 		
 //		goUrl("네이트");
 //		goUrl("네이버");
-//		goUrl("Hitomi");
-//		goUrl("PornHub");
+//		goUrl("카카오");
+//		goUrl("구글");
 //		
 //		printStatus();
 //		
@@ -140,7 +140,7 @@ public class ArrayListMain {
 //		System.out.println("앞으로가기 실행");
 //		printStatus();
 //		
-//		goUrl("JAV");
+//		goUrl("인스타그램");
 //		System.out.println("새로운 URL");
 //		printStatus();
 		
@@ -149,20 +149,20 @@ public class ArrayListMain {
 		// 값을 읽어오는 형태
 		// boolean hasNext() : 데이터의 존재유무 확인, next() : 값을 읽어온다, remove() : 삭제. 잘 안쓴다
 		
-		ArrayList list = new ArrayList();
-		
-		list.add(1);
-		list.add(2);
-		list.add(3);
-		list.add(4);
-		list.add(5);
-		
-		Iterator it = list.iterator(); // 컬렉션을 이터레이터화 한다.
-		
-		while(it.hasNext()) {
-			int num = (Integer)it.next();
-			System.out.println(num);
-		}
+//		ArrayList list = new ArrayList();
+//		
+//		list.add(1);
+//		list.add(2);
+//		list.add(3);
+//		list.add(4);
+//		list.add(5);
+//		
+//		Iterator it = list.iterator(); // 컬렉션을 이터레이터화 한다.
+//		
+//		while(it.hasNext()) {
+//			int num = (Integer)it.next();
+//			System.out.println(num);
+//		}
 		
 		
 	}

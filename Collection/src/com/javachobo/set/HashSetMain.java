@@ -21,8 +21,8 @@ public class HashSetMain { // 2.7
 //		set.add(4);
 //		set.add(1);   // 중복 불가능
 //		set.add("1"); // 데이터 입력 순서 상관 없음
-//		[1, 1, 2, 3, 4] // 중복된 데이터가 있다면 데이터 타입이 다른 것.
-//		
+		//[1, 1, 2, 3, 4] // 중복된 데이터가 있다면 데이터 타입이 다른 것.
+		
 //		System.out.println(set);
 //		
 //		Iterator it = set.iterator();
@@ -67,13 +67,13 @@ public class HashSetMain { // 2.7
 //				System.out.print(board[i][j] + " ");
 //			}
 //			System.out.println();
-//		} 1~50사이의 25개 숫자를 이차원 배열에 중복 없이 입력하는 것은 가능하지만 Set의 특성상 데이터가 정렬되어 있어 배열 순서를 건드릴 수는 없다.
+//		} // 1~50사이의 25개 숫자를 이차원 배열에 중복 없이 입력하는 것은 가능하지만 Set의 특성상 데이터가 정렬되어 있어 배열 순서를 건드릴 수는 없다.
 		
 		ArrayList list = new ArrayList(set); // list에 있는 shuffle 기능을 사용하기 위해 캐스팅
 		
 		Collections.shuffle(list);
 		
-		Iterator it = set.iterator();
+		Iterator it = list.iterator();
 		
 		for(int i=0; i<board.length; i++) {
 			for(int j=0; j<board.length; j++) {

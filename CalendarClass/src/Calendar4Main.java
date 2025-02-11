@@ -49,7 +49,7 @@ public class Calendar4Main {
 		rDay.set(year, month-1, 1);
 		rDay.add(Calendar.DATE, -(START_DAY_WEEK - 1));
 		RDAY = rDay.get(Calendar.DATE);
-		
+		System.out.println(RDAY);
 		for(int i=1, r=RDAY; i<START_DAY_WEEK; i++,r++) {
 //			System.out.print("   "); // 일~토 중 공백이 들어갈 부분
 			System.out.print(r < 10? "  " + r : " " + r);

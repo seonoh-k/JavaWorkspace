@@ -32,7 +32,7 @@ public class StudentMain {
 	static int displayMenu() {
 		// 메뉴 선택
 		System.out.println("********************************");
-		System.out.println("*  성  적  관  리  프  로  그  램  *");
+		System.out.println("*   성  적  관  리  프  로  그  램   *");
 		System.out.println("********************************");
 		
 		System.out.println("메뉴를 선택하세요");
@@ -105,12 +105,13 @@ public class StudentMain {
 		if(length > 0) {
 			for(int i=0; i<length; i++) {
 				Student student = (Student)record.get(i);
-				avg = student.total / 3;
+//				avg = student.total / 3;
+				avg = student.getAverage();
 				System.out.println(student + ", avg = " + avg + "]");
 			}
 		}else {
 			System.out.println("********************************");
-			System.out.println("*      학생  데이터가  없습니다     *");
+			System.out.println("*       학생  데이터가  없습니다      *");
 			System.out.println("********************************");
 		}
 		

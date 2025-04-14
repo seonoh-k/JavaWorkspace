@@ -53,14 +53,14 @@ public class HashMapMain {
 //			System.out.printf("key : %s, value : %s\n", key, value);
 //		}
 		
-		Map map = new HashMap();
-		
-		map.put("김자바", 90);
-		map.put("이자바", 70);
-		map.put("박자바", 60);
-		map.put("최자바", 50);
-		map.put("강자바", 80);
-		
+//		Map map = new HashMap();
+//		
+//		map.put("김자바", 90);
+//		map.put("이자바", 70);
+//		map.put("박자바", 60);
+//		map.put("최자바", 50);
+//		map.put("강자바", 80);
+//		
 //		Iterator it = map.entrySet().iterator(); // 값을 가져올 it의 위치를 초기화
 //		
 //		int sum = 0;
@@ -74,7 +74,7 @@ public class HashMapMain {
 //			avg = (double)sum / map.size();
 //			System.out.printf("이름 : %s, 점수 : %d\n", key, value);
 //		}
-//		System.out.printf("총점 : %d, 평균 : %f", sum, avg);
+//		System.out.printf("총점 : %d, 평균 : %.2f", sum, avg);
 //		
 //		Collection values = map.values(); // value 값만 가져온다
 //		Iterator itValues = values.iterator();
@@ -84,20 +84,20 @@ public class HashMapMain {
 //			sum += num;
 //		}
 //		avg = (double)sum / map.size();
-//		System.out.printf("총점 : %d, 평균 : %f", sum, avg);
+//		System.out.printf("총점 : %d, 평균 : %.2f", sum, avg);
 
 		// Iterator 생략하기
-		for(Object key : map.keySet()) { // key 값 가져오기
-			String name = (String)key;
-			System.out.println(name);
-		}
-		
-		for(Object obj : map.entrySet()) { // key, value 값 가져오기
-			Map.Entry entry = (Map.Entry)obj;
-			String key = (String)entry.getKey();
-			int value = (int)entry.getValue();
-			System.out.printf("이름 : %s, 점수 : %d\n", key, value);
-		}
+//		for(Object key : map.keySet()) { // key 값 가져오기
+//			String name = (String)key;
+//			System.out.println(name);
+//		}
+//		
+//		for(Object obj : map.entrySet()) { // key, value 값 가져오기
+//			Map.Entry entry = (Map.Entry)obj;
+//			String key = (String)entry.getKey();
+//			int value = (int)entry.getValue();
+//			System.out.printf("이름 : %s, 점수 : %d\n", key, value);
+//		}
 		
 		
 		

@@ -18,10 +18,10 @@ public class StreamClass { // 2.11
 //		System.out.println(s);
 //	}
 	
-	// 일반적인 리스트 생성
+	// 일반적인 List 생성
 	// ArrayList<String> list = new ArrayList<>();
 	
-	// 배열을 리스트로 변환
+	// 배열을 List로 변환
 	// 크기 변경이 불가능함
 	List<String> strList = Arrays.asList(strArr);
 //	Collections.sort(strList);

@@ -18,7 +18,6 @@ public class PersonMain {
 		set.add(p3);
 
 		System.out.println(set);
-		
 	}
 
 }

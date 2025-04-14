@@ -3,9 +3,9 @@ public class FruitBox2Main { // 2.10
 
 	public static void main(String[] args) {
 
-		FruitBox<Fruit> fruitBox = new FruitBox();
-		FruitBox<Apple> appleBox = new FruitBox();
-		FruitBox<Grape> grapeBox = new FruitBox();
+		FruitBox<Fruit> fruitBox = new FruitBox<>();
+		FruitBox<Apple> appleBox = new FruitBox<>();
+		FruitBox<Grape> grapeBox = new FruitBox<>();
 		//FruitBox<Toy> toyBox = new FruitBox(); // 상위 제한에 걸려서 사용 불가능
 		
 		fruitBox.add(new Fruit());

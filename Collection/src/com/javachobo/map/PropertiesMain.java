@@ -24,11 +24,11 @@ public class PropertiesMain { // 2.7
 //		props.setProperty("time", "30");
 //		props.setProperty("language", "kr");
 //		props.setProperty("size", "10");
-
+//
 //		System.out.println(props.getProperty("time"));
 //		System.out.println(props.getProperty("language"));
 //		System.out.println(props.getProperty("size"));
-		
+//		
 //		Enumeration e = props.propertyNames(); // key °ªÀ» ¹ÝÈ¯
 //		
 //		while(e.hasMoreElements()) {
@@ -129,6 +129,8 @@ public class PropertiesMain { // 2.7
 			}
 			avg = sum / score.length;
 			System.out.printf("ÀÌ¸§ : %s ÃÑÁ¡ : %d Æò±Õ : %d\n",name, sum, avg);
+			sum = 0;
+			avg = 0;
 		}		
 		
 		e = pros.propertyNames();
